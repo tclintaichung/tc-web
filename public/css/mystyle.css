@@ -4,7 +4,43 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  text-align: center;
+  font-size: 3.0rem;
+  font-style: italic;
+  font-weight: bold;
 }
 h1{
+  color: rgb(221, 255, 0);
   text-shadow: 5px 5px 5px gray;
+}
+nav{
+  
+  text-align: left;
+}
+nav:hover{
+  color: white;
+}
+a{
+  color:white;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+div{
+  position: relative;
+  left: 25%;
+  color:blue;
+  font-size: 2.0rem;
+  background-color: rgb(237, 237, 109);
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  border-radius: 25px;
+  padding: 20px;
+}
+li{
+  color: green;
+  font-size: 2.0rem;
+}
+ul{
+  padding-bottom: 20px;
 }
