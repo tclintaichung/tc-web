@@ -1,0 +1,8 @@
+name: Test action
+on: push
+jobs:
+  first-job:
+    name: Build something
+    container: node:12.18.4
+    steps:
+      - run: node --version
