@@ -6,6 +6,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: node --version
-    runs:
-      - using: "node12"
-      - main: "index.js"
+runs:
+  - using: "node12"
+  - main: "index.js"
