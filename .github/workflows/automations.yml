@@ -4,6 +4,5 @@ jobs:
   first-job:
     name: Build something
     runs-on: windows-latest
-    container: node:12.18.4
     steps:
       - run: node --version
