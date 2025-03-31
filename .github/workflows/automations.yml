@@ -6,4 +6,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: node --version
+      - run: npm i express
       - run: node server.js
