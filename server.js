@@ -21,6 +21,9 @@ app.use("/api/posts", posts);
 app.use("/api/products", products);
 app.use(errorHandler);
 
+app.get("/", (req, res) => {
+  res.sendFile("index.html");
+});
 
 mongoose
   .connect(
